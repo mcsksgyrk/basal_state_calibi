@@ -1,0 +1,120 @@
+\begin{align*}
+\mathrm{AMPK} + \mathrm{nS} &\xrightarrow{k0} \mathrm{AMPKa} + \mathrm{nS} \\
+\mathrm{AMPKa} &\xrightarrow{k1} \mathrm{AMPK} \\
+\mathrm{AMPKa} + \mathrm{mTORa} &\xrightarrow{k2} \mathrm{AMPKa} + \mathrm{mTOR} \\
+\mathrm{AMPKa} + \mathrm{mTORa_{ULKa}} &\xrightarrow{k3} \mathrm{AMPKa} + \mathrm{mTOR} + \mathrm{ULKa} \\
+\mathrm{mTORa} &\xrightarrow{k4} \mathrm{mTOR} \\
+\mathrm{mTORa} + \mathrm{AMPKa} &\xrightarrow{k5} \mathrm{mTORa} + \mathrm{AMPK} \\
+\mathrm{ULK} + \mathrm{mTORa} &\xrightleftharpoons[k7]{k6} \mathrm{mTORa_{ULK}} \\
+\mathrm{ULKa} + \mathrm{mTORa} &\xrightleftharpoons[k9]{k8} \mathrm{mTORa_{ULK}} \\
+\mathrm{AMPKa} + \mathrm{ULK} &\xrightarrow{k10} \mathrm{AMPKa} + \mathrm{ULKa} \\
+\mathrm{ULKa} &\xrightarrow{k11} \mathrm{ULKa} + \mathrm{phag} \\
+\mathrm{AMPKa} + \mathrm{TSC} &\xrightarrow{k12} \mathrm{AMPKa} + \mathrm{TSCa} \\
+\mathrm{RHEBa} + \mathrm{TSCa} &\xrightarrow{k13} \mathrm{RHEB} + \mathrm{TSCa} \\
+\mathrm{RHEBa} + \mathrm{mTOR} &\xrightarrow{k14} \mathrm{RHEBa} + \mathrm{mTORa} \\
+\mathrm{RHEB} &\xrightarrow{k15} \mathrm{RHEBa} \\
+\mathrm{ULKa} &\xrightarrow{k16} \mathrm{ULK} \\
+\mathrm{AMPKa} + \mathrm{ULKa} &\xrightarrow{k17} \mathrm{AMPK} + \mathrm{ULKa} \\
+\mathrm{phag} + \mathrm{BEC1} &\xrightarrow{k18} \mathrm{preAUT} + \mathrm{BEC1} \\
+\mathrm{phag} + \mathrm{BEC1_{UVG}} &\xrightarrow{k19} \mathrm{preAUT} + \mathrm{BEC1_{UVG}} \\
+\mathrm{BEC1} + \mathrm{UVG} &\xrightleftharpoons[k21]{k20} \mathrm{BEC1_{UVG}} \\
+\varnothing &\xrightarrow{k22} \mathrm{BEC1} \\
+\mathrm{BEC1c} &\xrightarrow{k23} \mathrm{cytc} + \mathrm{BEC1c} \\
+\mathrm{BEC1c} &\xrightarrow{k24} \varnothing \\
+\mathrm{phag} &\xrightarrow{k25} \varnothing \\
+\mathrm{ATG5} + \mathrm{phag} &\xrightarrow{k26} \mathrm{ATG5} + \mathrm{AUT} \\
+\mathrm{AUT} &\xrightarrow{k27} \varnothing \\
+\mathrm{AUT} + \mathrm{nS} &\xrightarrow{k28} \mathrm{AUT} \\
+\mathrm{AUT} + \mathrm{eS} &\xrightarrow{k29} \mathrm{AUT} \\
+\varnothing &\xrightarrow{k30} \mathrm{phag} \\
+\mathrm{eS} + \mathrm{PERK} &\xrightarrow{k31} \mathrm{PERKa} \\
+\mathrm{ATF4a} &\xrightarrow{k32} \mathrm{phag} \\
+\mathrm{PERKa} + \mathrm{ATF4} &\xrightarrow{k33} \mathrm{PERK} + \mathrm{ATF4a} \\
+\mathrm{preAUT} &\xrightarrow{k34} \varnothing \\
+\mathrm{dS} + \mathrm{DAPK} &\xrightarrow{k35} \mathrm{dS} + \mathrm{DAPKa} \\
+\mathrm{DAPKa} &\xrightarrow{k36} \mathrm{DAPK} \\
+\mathrm{EPACa} + \mathrm{PLCe} &\xrightarrow{k37} \mathrm{EPACa} + \mathrm{PLCea} \\
+\mathrm{PLCea} &\xrightarrow{k38} \mathrm{PLCe} \\
+\mathrm{PLCea} + \mathrm{PIP2} &\xrightarrow{k39} \mathrm{PLCea} + \mathrm{IP3} \\
+\mathrm{Ca2er} + \mathrm{IP3R_{IP3}} &\xrightarrow{k40} \mathrm{Ca2ic} + \mathrm{IP3R_{IP3}} \\
+\mathrm{Ca2ic} + \mathrm{SERCA} &\xrightarrow{k41} \mathrm{Ca2er} + \mathrm{SERCA} \\
+\mathrm{Ca2ic} + \mathrm{Bax} &\xrightarrow{k42} \mathrm{Ca2ic} + \mathrm{Baxa} \\
+\mathrm{IP3R} + \mathrm{IP3} &\xrightleftharpoons[k44]{k43} \mathrm{IP3R_{IP3}} \\
+\mathrm{IP3} &\xrightarrow{k45} \mathrm{IP2} \\
+\mathrm{IP2} &\xrightarrow{k46} \mathrm{IP} \\
+\mathrm{IP} &\xrightarrow{k47} \mathrm{Ins} \\
+\mathrm{Ins} &\xrightarrow{k48} \mathrm{PIP2} \\
+\mathrm{IP3R_{IP3}} + \mathrm{phag} &\xrightarrow{k49} \mathrm{IP3R_{IP3}} \\
+\mathrm{Ca2ic} + \mathrm{CaMKKb} &\xrightarrow{k50} \mathrm{Ca2ic} + \mathrm{CaMKKba} \\
+\mathrm{CaMKKba} &\xrightarrow{k51} \mathrm{Ca2ic} + \mathrm{CaMKKb} \\
+\mathrm{AMPK} + \mathrm{CaMKKba} &\xrightarrow{k52} \mathrm{AMPKa} + \mathrm{CaMKKba} \\
+\mathrm{IP3R} + \mathrm{BCL2} &\xrightleftharpoons[k54]{k53} \mathrm{IP3R_{BCL2}} \\
+\mathrm{BEC1} + \mathrm{BCL2} &\xrightleftharpoons[k56]{k55} \mathrm{BEC1_{BCL2}} \\
+\mathrm{BCL2p} &\xrightarrow{k57} \mathrm{BCL2} \\
+\mathrm{Ca2ic} + \mathrm{Calpain} &\xrightarrow{k58} \mathrm{Ca2ic} + \mathrm{Calpaina} \\
+\mathrm{Calpaina} &\xrightarrow{k59} \mathrm{Calpain} \\
+\mathrm{Calpaina} + \mathrm{Ga} &\xrightarrow{k60} \mathrm{Gaa} + \mathrm{Calpaina} \\
+\mathrm{Calpaina} + \mathrm{ATG5} &\xrightarrow{k61} \mathrm{Calpaina} + \mathrm{ATG5t} \\
+\mathrm{ATG5t} + \mathrm{BCL2} &\xrightleftharpoons[k63]{k62} \mathrm{ATG5_{BCL2}} \\
+\mathrm{Calpaina} + \mathrm{Bid} &\xrightarrow{k64} \mathrm{Calpaina} + \mathrm{tBid} \\
+\mathrm{Calpaina} + \mathrm{BEC1} &\xrightarrow{k65} \mathrm{Calpaina} \\
+\mathrm{AC} + \mathrm{Gaa} &\xrightleftharpoons[k67]{k66} \mathrm{AC_{Gaa}} \\
+\mathrm{AC_{Gaa}} &\xrightarrow{k68} \mathrm{AC_{Gaa}} + \mathrm{cAMP} \\
+\mathrm{cAMP} &\xrightarrow{k69} \varnothing \\
+\mathrm{cAMP} + \mathrm{EPAC} &\xrightarrow{k70} \mathrm{cAMP} + \mathrm{EPACa} \\
+\mathrm{EPACa} &\xrightarrow{k71} \mathrm{EPAC} \\
+\mathrm{Ga} &\xrightarrow{k72} \mathrm{G} \\
+\mathrm{AC} + \mathrm{Ga} &\xrightleftharpoons[k74]{k73} \mathrm{AC_{Ga}} \\
+\mathrm{Gabg} + \mathrm{GPCRa} &\xrightarrow{k75} \mathrm{Ga} + \mathrm{Gbg} + \mathrm{GPCRa} \\
+\mathrm{Ga} + \mathrm{Gbg} &\xrightarrow{k76} \mathrm{Gabg} \\
+\mathrm{BCL2} + \mathrm{Bax} &\xrightleftharpoons[k78]{k77} \mathrm{BCL2_{Bax}} \\
+\mathrm{Bax} + \mathrm{p53m} &\xrightarrow{k79} \mathrm{Baxa} + \mathrm{p53m} \\
+\mathrm{Baxa} &\xrightarrow{k80} \mathrm{Bax} \\
+\mathrm{Bax} &\xrightarrow{k81} \varnothing \\
+\mathrm{UVG} + \mathrm{Bax} &\xrightleftharpoons[k83]{k82} \mathrm{UVG_{Bax}} \\
+\mathrm{cytc} + \mathrm{caspase} &\xrightarrow{k84} \mathrm{cytc} + \mathrm{caspasea} \\
+\mathrm{Bid} + \mathrm{caspasea} &\xrightarrow{k85} \mathrm{tBid} + \mathrm{caspasea} \\
+\mathrm{tBid} &\xrightarrow{k86} \varnothing \\
+\varnothing &\xrightarrow{k87} \mathrm{Bid} \\
+\mathrm{JNKa} + \mathrm{caspase} &\xrightarrow{k88} \mathrm{JNKa} + \mathrm{caspasea} \\
+\mathrm{dS} &\xrightarrow{k89} \mathrm{dS} + \mathrm{p53c} \\
+\mathrm{p53c} &\xrightarrow{k90} \varnothing \\
+\mathrm{p53c} &\xrightleftharpoons[k92]{k91} \mathrm{p53a} \\
+\mathrm{p53a} &\xrightarrow{k93} \mathrm{p53a} + \mathrm{Mdm2} \\
+\mathrm{p53c} + \mathrm{Mdm2} &\xrightarrow{k94} \mathrm{p53m} + \mathrm{Mdm2} \\
+\mathrm{p53a} &\xrightarrow{k95} \mathrm{p53a} + \mathrm{Bax} \\
+\mathrm{p53m} + \mathrm{BCL2} &\xrightleftharpoons[k97]{k96} \mathrm{p53_{BCL2}} \\
+\mathrm{Mdm2} &\xrightarrow{k98} \varnothing \\
+\mathrm{p53a} &\xrightarrow{k99} \mathrm{p53a} + \mathrm{DRAM} \\
+\mathrm{DRAM} &\xrightarrow{k100} \varnothing \\
+\mathrm{DRAM} + \mathrm{preAUT} &\xrightarrow{k101} \mathrm{DRAM} + \mathrm{AUT} \\
+\mathrm{p53c} + \mathrm{AMPKa} &\xrightarrow{k102} \mathrm{p53c} + \mathrm{AMPK} \\
+\mathrm{p53a} &\xrightarrow{k103} \mathrm{p53a} + \mathrm{PUMA} \\
+\mathrm{PUMA} + \mathrm{BCL2} &\xrightleftharpoons[k105]{k104} \mathrm{PUMA_{BCL2}} \\
+\mathrm{PUMA} &\xrightarrow{k106} \varnothing \\
+\mathrm{Baxa} &\xrightarrow{k107} \mathrm{cytc} + \mathrm{Baxa} \\
+\mathrm{cytc} &\xrightarrow{k108} \varnothing \\
+\mathrm{mTORa} + \mathrm{TFEBi} &\xrightarrow{k109} \mathrm{mTORa} + \mathrm{TFEB} \\
+\mathrm{phag} + \mathrm{TFEB} &\xrightarrow{k110} \mathrm{AUT} + \mathrm{TFEB} \\
+\mathrm{TFEB} &\xrightarrow{k111} \mathrm{TFEBi} \\
+\mathrm{Ins} + \mathrm{PI3K} &\xrightarrow{k112} \mathrm{Ins} + \mathrm{PI3Ka} \\
+\mathrm{PI3Ka} &\xrightarrow{k113} \mathrm{PI3K} \\
+\mathrm{AKT} + \mathrm{PI3Ka} &\xrightarrow{k114} \mathrm{AKTa} + \mathrm{PI3K} \\
+\mathrm{AKTa} &\xrightarrow{k115} \mathrm{AKT} \\
+\mathrm{AKTa} + \mathrm{TSCa} &\xrightarrow{k116} \mathrm{AKTa} + \mathrm{TSC} \\
+\mathrm{AKTa} + \mathrm{mTORa_{ULKa}} &\xrightarrow{k117} \mathrm{AKTa} + \mathrm{mTOR} + \mathrm{ULKa} \\
+\mathrm{JNKa} + \mathrm{BCL2} &\xrightarrow{k118} \mathrm{JNKa} + \mathrm{BCL2p} \\
+\mathrm{JNKa} + \mathrm{BEC1_{BCL2}} &\xrightarrow{k119} \mathrm{JNKa} + \mathrm{BEC1} + \mathrm{BCL2p} \\
+\mathrm{DAPKa} + \mathrm{BEC1_{BCL2}} &\xrightarrow{k120} \mathrm{DAPKa} + \mathrm{BEC1} + \mathrm{BCL2} \\
+\mathrm{eS} + \mathrm{JNK} &\xrightarrow{k121} \mathrm{eS} + \mathrm{JNKa} \\
+\mathrm{JNKa} &\xrightarrow{k122} \mathrm{JNK} \\
+\mathrm{nS} + \mathrm{MAPK15} &\xrightarrow{k123} \mathrm{nS} + \mathrm{MAPK15a} \\
+\mathrm{MAPK15a} &\xrightarrow{k124} \mathrm{MAPK15} \\
+\mathrm{PKA} + \mathrm{MAPK15a} &\xrightarrow{k125} \mathrm{PKAa} + \mathrm{MAPK15a} \\
+\mathrm{PKAa} &\xrightarrow{k126} \mathrm{PKA} \\
+\mathrm{PKAa} + \mathrm{phag} &\xrightarrow{k127} \mathrm{PKAa} + \mathrm{preAUT} \\
+\mathrm{PKAa} + \mathrm{preAUT} &\xrightarrow{k128} \mathrm{PKAa} + \mathrm{AUT} \\
+\varnothing &\xrightarrow{k129} \mathrm{ATG5} \\
+\mathrm{ATG5t} &\xrightarrow{k130} \varnothing \\
+\mathrm{ATG5} &\xrightarrow{k131} \varnothing  
+ \end{align*}
